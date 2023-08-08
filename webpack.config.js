@@ -21,6 +21,8 @@ module.exports = {
     compress: true,
     port: 8080,
     open: true,
+    hot: false,
+    liveReload: true,
   },
   module: {
     rules: [
