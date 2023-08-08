@@ -9,6 +9,7 @@ const presets = [
         chrome: "64",
         safari: "11.1",
       },
+
       useBuiltIns: "entry",
       corejs: "^3",
     },
