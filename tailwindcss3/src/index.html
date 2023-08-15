@@ -7,12 +7,21 @@
     <title>Tailwind CSS3</title>
   </head>
   <body>
-    <div class="max-w-7xl px-5 mx-auto">
-      <h1 class="text-7xl font-bold text-purple-900">Headline</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat a quia omnis unde, architecto fuga nesciunt laudantium est expedita beatae minima recusandae minus non, magni ipsum itaque cum
-        natus nemo.
-      </p>
+    <div class="max-w-full">
+      <header class="max-w-7xl bg-black text-white px-10 py-5">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <a href="#" rel="noopener noreferrer" class="navbar__logo-wrapper" title="Homepage">
+              <img src="/assets/img/logo.svg" alt="Abstract Logo" class="h-12 w-12" />
+              Abstract
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="navbar__helpcenter" title="Help Center">Help Center</a>
+          </div>
+          <div class="navbar__right-wrapper"></div>
+        </div>
+      </header>
+      <main></main>
+      <footer></footer>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
