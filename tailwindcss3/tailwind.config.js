@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         "royal-blue": "#4C5FD5",
+        "hero-color": "#DADBF1",
+      },
+      boxShadow: {
+        primary: "0 9px 14px 0 rgba(0, 0, 0, 0.1)",
       },
     },
     fontSize: {
