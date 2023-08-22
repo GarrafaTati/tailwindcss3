@@ -12,6 +12,18 @@ export default {
       },
     },
     fontSize: {
+      sm: [
+        "0.875rem",
+        {
+          lineHeight: "1.25rem",
+        },
+      ],
+      xl: [
+        "1.25rem",
+        {
+          lineHeight: "1.75rem",
+        },
+      ],
       "2xl": [
         "1.5rem",
         {
